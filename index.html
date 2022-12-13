@@ -65,9 +65,9 @@
                 --color-primary-l: 0.0%;
                 --color-primary-darker: hsl(var(--color-primary-h), var(--color-primary-s), calc(var(--color-primary-l) - 7.5%));
 
-                --color-secondary-h: 54.83253588516747;
-                --color-secondary-s: 74.37722419928826%;
-                --color-secondary-l: 54.8828125%;
+                --color-secondary-h: 206.8421052631579;
+                --color-secondary-s: 90.47619047619048%;
+                --color-secondary-l: 49.21875%;
                 --color-secondary-darker: hsl(var(--color-secondary-h), var(--color-secondary-s), calc(var(--color-secondary-l) - 7.5%));
 
                 --switch: calc((var(--color-primary-l) - var(--contrastThreshold)) * -100);
@@ -768,19 +768,19 @@
                                             <div class="relative grid gap-6 px-5 py-6 bg-white sm:gap-8 sm:p-8">
                                                   
                                                     <a
-                                                        href=" gallery-Interior-Renovations "
-                                                        role="menuitem"
-                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
-                                                    >
-                                                        <p class="mt-1 text-sm text-gray-500 uppercase">Interior Renovations</p>
-                                                    </a>
-                                              
-                                                    <a
                                                         href=" gallery-Exterior-Renovations "
                                                         role="menuitem"
                                                         class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
                                                     >
                                                         <p class="mt-1 text-sm text-gray-500 uppercase">Exterior Renovations</p>
+                                                    </a>
+                                              
+                                                    <a
+                                                        href=" gallery-Interior-Renovations "
+                                                        role="menuitem"
+                                                        class="block p-3 -m-3 transition rounded-md  focus:outline-none focus:ring-2 ring-primary ring-opacity-75 ring-offset-2 hover:bg-gray-50"
+                                                    >
+                                                        <p class="mt-1 text-sm text-gray-500 uppercase">Interior Renovations</p>
                                                     </a>
                                               
                                                     <a
@@ -1014,12 +1014,12 @@
                                     >
                                         <div class="relative grid gap-6 px-5 py-2 bg-white rounded-lg">
                                             
-                                                <a href="gallery-Interior-Renovations" role="menuitem" class="block p-3 -m-3 transition rounded-md">
-                                                    <p class="mt-1 text-sm text-gray-500 uppercase">Interior Renovations</p>
-                                                </a>
-                                            
                                                 <a href="gallery-Exterior-Renovations" role="menuitem" class="block p-3 -m-3 transition rounded-md">
                                                     <p class="mt-1 text-sm text-gray-500 uppercase">Exterior Renovations</p>
+                                                </a>
+                                            
+                                                <a href="gallery-Interior-Renovations" role="menuitem" class="block p-3 -m-3 transition rounded-md">
+                                                    <p class="mt-1 text-sm text-gray-500 uppercase">Interior Renovations</p>
                                                 </a>
                                             
                                                 <a href="gallery-All" role="menuitem" class="block p-3 -m-3 transition rounded-md">
@@ -1627,7 +1627,7 @@
                                 
                                     <img
                                         class="object-cover grayscale"
-                                        src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:quality(80)/filters:strip_exif()/filters:format(webp)/media/d28b7699-9ad8-4211-a643-c54308fc0790.jpeg"
+                                        src="https://d3p2r6ofnvoe67.cloudfront.net/fit-in/500x500/filters:quality(80)/filters:strip_exif()/filters:format(webp)/media/ad758990-3fb9-4729-ba32-cc74ea5097e8.jpeg"
                                         alt="Our Bathroom Renovation service includes a complete renovation of your bathroom, from the floor to the ceiling. We&#x27;ll work with you to design a bathroom that meets your needs and fits your budget. for Super Mike’s Remodeling  in Waller, TX"
                                         loading="lazy"
                                         width="250" height="250"
@@ -2040,9 +2040,9 @@
             <ul id="main">
                 <li><div data-active="true" data-filter="all" onclick="filterGalleryByDataId('All Photos')">All Photos</div></li>
                     
-                        <li><div data-active="false" data-filter="Interior Renovations" onclick='filterGalleryByDataId("Interior Renovations")'>Interior Renovations</div></li>
-                    
                         <li><div data-active="false" data-filter="Exterior Renovations" onclick='filterGalleryByDataId("Exterior Renovations")'>Exterior Renovations</div></li>
+                    
+                        <li><div data-active="false" data-filter="Interior Renovations" onclick='filterGalleryByDataId("Interior Renovations")'>Interior Renovations</div></li>
                     
 
             <li>
@@ -3962,7 +3962,7 @@ runYourFunctionWhenJQueryIsLoaded(nacFunction);
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="167729"
+                                aria-controls="167735"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white quill">What's the best way to reach you?</span>
@@ -3981,7 +3981,7 @@ runYourFunctionWhenJQueryIsLoaded(nacFunction);
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12 quill" id="167729">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12 quill" id="167735">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100 quill">Give us a call or send us a text at . Thanks!</p>
                         </dd>
@@ -3993,7 +3993,7 @@ runYourFunctionWhenJQueryIsLoaded(nacFunction);
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="167730"
+                                aria-controls="167736"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white quill">Do you provide free estimates?</span>
@@ -4012,7 +4012,7 @@ runYourFunctionWhenJQueryIsLoaded(nacFunction);
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12 quill" id="167730">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12 quill" id="167736">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100 quill">Yes, we'll always estimate the job for free. Just give us a call to get started.</p>
                         </dd>
@@ -4024,7 +4024,7 @@ runYourFunctionWhenJQueryIsLoaded(nacFunction);
                                 type="button"
                                 @click="expanded = !expanded"
                                 class="flex items-start justify-between w-full text-left text-white rounded  focus:outline-none focus-visible:ring-2 ring-white"
-                                aria-controls="167731"
+                                aria-controls="167737"
                                 :aria-expanded="expanded"
                             >
                             <span class="font-medium text-white quill">How are you different?</span>
@@ -4043,7 +4043,7 @@ runYourFunctionWhenJQueryIsLoaded(nacFunction);
                                 </span>
                             </button>
                         </dt>
-                        <dd x-show="expanded" x-cloak x-collapse class="pr-12 quill" id="167731">
+                        <dd x-show="expanded" x-cloak x-collapse class="pr-12 quill" id="167737">
                             <div aria-hidden="true" class="invisible h-2"></div>
                             <p class="mt-2 text-base text-gray-100 quill">We're a customer-first company that will do whatever it takes to make sure the job is well done.</p>
                         </dd>
@@ -4700,7 +4700,7 @@ observer.observe(target)
                                     <div class="flex flex-col space-y-2">
                                         
                                         <div class="flex items-center">
-                                            <input type="checkbox" name="429199" value="Bathroom Renovation" id="contact-service-429199" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
+                                            <input type="checkbox" name="429213" value="Bathroom Renovation" id="contact-service-429213" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                             />
                                             <span class="ml-3 items-start">
                                              Bathroom Renovation
@@ -4708,7 +4708,7 @@ observer.observe(target)
                                         </div>
                                         
                                         <div class="flex items-center">
-                                            <input type="checkbox" name="429200" value="Carpentry" id="contact-service-429200" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
+                                            <input type="checkbox" name="429214" value="Carpentry" id="contact-service-429214" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                             />
                                             <span class="ml-3 items-start">
                                              Carpentry
@@ -4716,7 +4716,7 @@ observer.observe(target)
                                         </div>
                                         
                                         <div class="flex items-center">
-                                            <input type="checkbox" name="429201" value="Deck & Patio Installation" id="contact-service-429201" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
+                                            <input type="checkbox" name="429215" value="Deck & Patio Installation" id="contact-service-429215" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                             />
                                             <span class="ml-3 items-start">
                                              Deck & Patio Installation
@@ -4724,7 +4724,7 @@ observer.observe(target)
                                         </div>
                                         
                                         <div class="flex items-center">
-                                            <input type="checkbox" name="429202" value="Flooring" id="contact-service-429202" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
+                                            <input type="checkbox" name="429216" value="Flooring" id="contact-service-429216" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                             />
                                             <span class="ml-3 items-start">
                                              Flooring
@@ -4732,7 +4732,7 @@ observer.observe(target)
                                         </div>
                                         
                                         <div class="flex items-center">
-                                            <input type="checkbox" name="429203" value="Kitchen Renovation" id="contact-service-429203" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
+                                            <input type="checkbox" name="429217" value="Kitchen Renovation" id="contact-service-429217" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                             />
                                             <span class="ml-3 items-start">
                                              Kitchen Renovation
@@ -4740,7 +4740,7 @@ observer.observe(target)
                                         </div>
                                         
                                         <div class="flex items-center">
-                                            <input type="checkbox" name="429204" value="Roofing" id="contact-service-429204" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
+                                            <input type="checkbox" name="429218" value="Roofing" id="contact-service-429218" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                             />
                                             <span class="ml-3 items-start">
                                              Roofing
@@ -4748,7 +4748,7 @@ observer.observe(target)
                                         </div>
                                         
                                         <div class="flex items-center">
-                                            <input type="checkbox" name="429205" value="Other Repair Services" id="contact-service-429205" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
+                                            <input type="checkbox" name="429219" value="Other Repair Services" id="contact-service-429219" class="mt-0.5 items-center w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                             />
                                             <span class="ml-3 items-start">
                                              Other Repair Services
@@ -4825,85 +4825,85 @@ observer.observe(target)
                                     
                                     <div class="flex items-center">
                                         <input
-                                                id="contact-service-429199"
-                                                name="429199"
+                                                id="contact-service-429213"
+                                                name="429213"
                                                 type="checkbox"
                                                 class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                 value="Bathroom Renovation"
                                         />
-                                        <label for="contact-service-429199" class="ml-3 text-sm text-gray-600">Bathroom Renovation</label>
+                                        <label for="contact-service-429213" class="ml-3 text-sm text-gray-600">Bathroom Renovation</label>
                                     </div>
                                 
                                     
                                     <div class="flex items-center">
                                         <input
-                                                id="contact-service-429200"
-                                                name="429200"
+                                                id="contact-service-429214"
+                                                name="429214"
                                                 type="checkbox"
                                                 class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                 value="Carpentry"
                                         />
-                                        <label for="contact-service-429200" class="ml-3 text-sm text-gray-600">Carpentry</label>
+                                        <label for="contact-service-429214" class="ml-3 text-sm text-gray-600">Carpentry</label>
                                     </div>
                                 
                                     
                                     <div class="flex items-center">
                                         <input
-                                                id="contact-service-429201"
-                                                name="429201"
+                                                id="contact-service-429215"
+                                                name="429215"
                                                 type="checkbox"
                                                 class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                 value="Deck & Patio Installation"
                                         />
-                                        <label for="contact-service-429201" class="ml-3 text-sm text-gray-600">Deck & Patio Installation</label>
+                                        <label for="contact-service-429215" class="ml-3 text-sm text-gray-600">Deck & Patio Installation</label>
                                     </div>
                                 
                                     
                                     <div class="flex items-center">
                                         <input
-                                                id="contact-service-429202"
-                                                name="429202"
+                                                id="contact-service-429216"
+                                                name="429216"
                                                 type="checkbox"
                                                 class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                 value="Flooring"
                                         />
-                                        <label for="contact-service-429202" class="ml-3 text-sm text-gray-600">Flooring</label>
+                                        <label for="contact-service-429216" class="ml-3 text-sm text-gray-600">Flooring</label>
                                     </div>
                                 
                                     
                                     <div class="flex items-center">
                                         <input
-                                                id="contact-service-429203"
-                                                name="429203"
+                                                id="contact-service-429217"
+                                                name="429217"
                                                 type="checkbox"
                                                 class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                 value="Kitchen Renovation"
                                         />
-                                        <label for="contact-service-429203" class="ml-3 text-sm text-gray-600">Kitchen Renovation</label>
+                                        <label for="contact-service-429217" class="ml-3 text-sm text-gray-600">Kitchen Renovation</label>
                                     </div>
                                 
                                     
                                     <div class="flex items-center">
                                         <input
-                                                id="contact-service-429204"
-                                                name="429204"
+                                                id="contact-service-429218"
+                                                name="429218"
                                                 type="checkbox"
                                                 class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                 value="Roofing"
                                         />
-                                        <label for="contact-service-429204" class="ml-3 text-sm text-gray-600">Roofing</label>
+                                        <label for="contact-service-429218" class="ml-3 text-sm text-gray-600">Roofing</label>
                                     </div>
                                 
                                     
                                     <div class="flex items-center">
                                         <input
-                                                id="contact-service-429205"
-                                                name="429205"
+                                                id="contact-service-429219"
+                                                name="429219"
                                                 type="checkbox"
                                                 class="w-4 h-4 border-gray-300 rounded text-primary focus:ring-primary"
                                                 value="Other Repair Services"
                                         />
-                                        <label for="contact-service-429205" class="ml-3 text-sm text-gray-600">Other Repair Services</label>
+                                        <label for="contact-service-429219" class="ml-3 text-sm text-gray-600">Other Repair Services</label>
                                     </div>
                                 
                                     
