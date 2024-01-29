@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: 
-Sitemap: https://supermikesremodeling.com/sitemap.xml
