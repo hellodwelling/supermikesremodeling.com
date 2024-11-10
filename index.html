@@ -155,6 +155,7 @@
     <script type="text/javascript">
         document.addEventListener("DOMContentLoaded",(function(){const t=document.querySelectorAll("video.lazy, img.lazy"),e=t=>{const e=t.getAttribute("data-src");!t.getAttribute("src")&&e&&(t.src=e,t.removeAttribute("data-src"))},r=new IntersectionObserver(((t,r)=>{t.forEach((t=>{if(t.isIntersecting)if("string"==typeof t.target.tagName&&"IMG"===t.target.tagName)e(t.target),r.unobserve(t.target);else{const a=t.target.children;for(let n=0;n<a.length;n++){const o=a[n];"string"==typeof o.tagName&&"SOURCE"===o.tagName&&(e(o),t.target.load(),r.unobserve(t.target))}}}))}));t.forEach((t=>{r.observe(t)}))}));
     </script>
+    
 </head>
 
 <body
